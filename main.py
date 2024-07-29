@@ -71,7 +71,7 @@ def zaдание3():
     # Сохранение содержимого ответа в текстовый файл
     with open('Задание3.json', 'w', encoding='utf-8') as file:
         json.dump(response_json, file, ensure_ascii=False, indent=4)
-        
+
 # Выбор задания
 chosen_task = input("Выберите задание (Задание1, Задание2, Задание3): ")
 
